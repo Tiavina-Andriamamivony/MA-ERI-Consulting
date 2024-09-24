@@ -40,6 +40,7 @@ html{
     padding-bottom: 3%;
 }
 .head-button{
+    font-family: "Quicksand";
     border: 2px solid black;
     padding: 2%;
     outline: none;
@@ -66,4 +67,37 @@ html{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.one{
+    animation: appear 1s ease;
+}
+.two{
+    animation: appear 2s ease;
+}
+.three{
+    animation: appear 3s ease;
+}
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    100%{
+      oppacity: 1;
+    }
+
+}
+
+
+#Question{
+    border: 3px solid red;
+    width: 99vw;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+#Question h1{
+    margin-bottom: 4%;
 }
